@@ -13,3 +13,14 @@ NaN
 	...
 	}
 	}
+	
+	
+	delete方法
+	删除对象的属性
+	another_stooge,nickname //Moe
+	 detete another_stooge.nickname
+	 
+	 删除了this的nickname属性从而爆漏了原型的nickname属性
+	 another_stooge,nickname
+	 
+	减少全局变量的污染
