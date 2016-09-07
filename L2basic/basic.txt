@@ -23,4 +23,66 @@ NaN
 	 删除了this的nickname属性从而爆漏了原型的nickname属性
 	 another_stooge,nickname
 	 
-	减少全局变量的污染
+	减少全局变量的污染的方法
+	只创建一个一个全局变量例如：
+	
+	
+	var MYAPP = {}
+	
+	
+	然后将所有要定义的全局变量都写在这个全局变量里面
+	
+	MYAPP.stooge  =  {
+	"first-name": "Tom"
+    "last-name":"Howard"	
+	};
+	
+	MYAPP.flight = {
+	airline:"Oceanic",
+	number:815,
+	departure:{
+	DATA:"SYD"
+	TIME:"2004 - 09 - 22"
+	city:"Sydney"
+	}
+	arrival:{
+	DATA:"SLA"
+	TIME:"2004 - 09 - 23"
+	city:"hangzhou"
+	}
+	}
+	
+	然后调用
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
