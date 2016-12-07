@@ -2,18 +2,31 @@
 <html>
 <head>
      <meta charset="utf-8">
-	 <title>image标签</title>
+	 <title>路径问题</title>
 </head>
 <body>
-<img src="QRcode.png">
+<!-- <img src="QRcode.png">
 <img src="QRcode.png" width="300" height="400">
 <img src="QRcode.png" width="300"  title="这是小粒粒的微信二维码信息">
 <img src="QRcoe.png" width="300" height="400" title="这是小粒粒的微信二维码信息"
-alt="你需要查看的图片不见了">
+alt="你需要查看的图片不见了"> -->
 
 
 <!-- width  height   img标签不独占一行  
 只要指定一个值  系统会等比拉伸计算另一个值
-当鼠标悬停  加title标签 -- >
+当鼠标悬停  加title标签 
+
+
+
+1.1同级路径
+1.2下级路径
+
+
+-- >
+<p>1.2下级路径</p>
+<img src="../QRcode.png">
+
+
+
 </body>
 </html>
