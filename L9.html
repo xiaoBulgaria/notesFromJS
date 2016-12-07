@@ -2,31 +2,18 @@
 <html>
 <head>
      <meta charset="utf-8">
-	 <title>路径问题</title>
+	 <title>br标签</title>
 </head>
 <body>
-<!-- <img src="QRcode.png">
-<img src="QRcode.png" width="300" height="400">
-<img src="QRcode.png" width="300"  title="这是小粒粒的微信二维码信息">
-<img src="QRcoe.png" width="300" height="400" title="这是小粒粒的微信二维码信息"
-alt="你需要查看的图片不见了"> -->
-
-
-<!-- width  height   img标签不独占一行  
-只要指定一个值  系统会等比拉伸计算另一个值
-当鼠标悬停  加title标签 
+<p>同级</p>
+<img src="QRcode.png">
+<p>下级</p>
+<img src="image/QRcode.png" width="300" height="400">
+<p>上级</p>
+<img src="../QRcode.png" width="300"  title="这是小粒粒的微信二维码信息">
 
 
 
-1.1同级路径
-1.2下级路径
-
-
--- >
-<p>1.2下级路径</p>
-<img src="../QRcode.png">
-
-
-
+<!-- 一个br标签换一行 br标签是不另起段落的换行 -- >
 </body>
 </html>
